@@ -41,8 +41,8 @@
 }
 
 body {
-    background-color: white;
-    font-family: "Courier New", Courier, monospace;
+    background-color: #ffc300;
+    font-family: Trebuchet MS, Arial, sans-serif;
     line-height: 1;
 }
 
@@ -52,6 +52,46 @@ img {
 
 a {
     text-decoration: none;
+}
+
+.hero {
+    background-color: #000814;
+    color: white;
+    height: 595px;
+}
+.hero nav {
+    display: flex;
+    justify-content: space-between;
+}
+.hero ul {
+    display: flex;
+    list-style: none;
+}
+.hero li {
+    padding: 10px;
+}
+.hero a {
+    color: white;
+}
+.hero a:hover {
+    color: #a2d0fc;
+}
+.hero h1 {
+    padding: 10px;
+}
+
+.hero-content {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.hero-content img {
+    width: 50%;
+}
+.hero-content h1 {
+    font-size: 2em;
 }
 
 .m-1 {
